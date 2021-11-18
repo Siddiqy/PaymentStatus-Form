@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <title>Payment Status - Search</title>
+    </head>
+    <body>
+        <section class="bg-img">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="main-form col-12">
+                        <h4>Payment Status - <samp>Status</samp></h4>
+                        <hr>
+                        <div class="form-heading text-center">
+                            <h5>Please Choose your mode of search</h5>
+                        </div>
+                        <div class="form-inputes col-10">
+                            <div class="form-group payment-selection">
+                                <div class="row main-selection">
+                                    <label class="col-4" for="main-dropdown"></label>
+                                    <div class="main-dropdown col-6 offset-1">
+                                        <select>
+                                            <option>Select...</option>
+                                            <option value="customer-ref">CUSTOMER REFERENCE</option>
+                                            <option value="payment-uetr">PAYMENT UETR</option>
+                                            <option value="payment-details">PAYER DETAILS</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="for customer-ref">
+                                <div class="form-group">
+                                    <div class="row customer-ref">
+                                      <label class="col-4" for="arrival">CUSTOMER REFERENCE <span>*</span></label>
+                                      <div class="col-6 offset-1">
+                                        <input type="text" class="col form-control form-input" name="arrival" id="arrival" placeholder="Enter Customer Reference" autocomplete="off" required>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="for payment-uetr">
+                                <div class="form-group">
+                                    <div class="row payment-uetr">
+                                      <label class="col-4" for="arrival">PAYEMENT UETR <span>*</span></label>
+                                      <div class="col-6 offset-1">
+                                        <input type="text" class="col form-control form-input" name="arrival" id="arrival" placeholder="ENTER 36 Digit UETR" autocomplete="off" required>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="for payment-details">
+                                <div class="form-group">
+                                    <div class="row payment-details">
+                                      <label class="col-4" for="arrival">DEBIT ACCOUNT NUMBER <span>*</span></label>
+                                      <div class="col-6 offset-1">
+                                        <input type="text" class="col form-control form-input" name="arrival" id="arrival" placeholder="XXXX-XXXX-XXXX-XXXX" autocomplete="off" required>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row payment-details">
+                                        <label class="col-4" for="country-dropdown">ORIGINATING COUNTRY <span>*</span></label>
+                                        <div class="country-dropdown col-6 offset-1">
+                                            <select id="country">
+                                                <option>Select...</option>
+                                                <option value="afghanistan">Afghanistan</option>
+                                                <option value="albania">Albania</option>
+                                                <option value="bangladesh">Bangladesh</option>
+                                                <option value="barbados">Barbados</option>
+                                                <option value="canada">Canada</option>
+                                                <option value="china">China</option>
+                                                <option value="denmark">Denmark</option>
+                                                <option value="dominica">Dominica</option>
+                                                <option value="egypt">Egypt</option>
+                                                <option value="estonia">Estonia</option>
+                                                <option value="fiji">Fiji</option>
+                                                <option value="germany">Germany</option>
+                                                <option value="ghana">Ghana</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group payment-fields">
+                                    <div class="row payment-details">
+                                        <label class="col-4" for="payment-dropdown">PAYMENT AMOUNT <span>*</span></label>
+                                        <div class="row payment-dropdown col-6 offset-1 justify-content-between">
+                                            <select class="col-4">
+                                                <option>USD</option>
+                                                <option value="gbp">GBP</option>
+                                                <option value="eur">EUR</option>
+                                                <option value="bdt">BDT</option>
+                                            </select>
+                                            <input type="text" class="form-control form-input col-7 mt-2" name="amount" id="amount" placeholder="Enter Amount" autocomplete="off" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row all-buttons">
+                                <div class="col-4">
+                                    <p>Denotes Mandatory <span>*</span></p>
+                                </div>
+                                <div class="bottom-btn col-6 offset-1">
+                                    <p>NOTE : Exact payment amount is required</p>
+                                    <button class="search-btn" type="button"><i class="fas fa-search"></i> Search</button> <button class="search-reset" type="button">RESET</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="terms-condition">
+                            <p>You can choose to recieve timely alerts via SMS or email for Transanction Statuses.<br>
+                                Simply log on to Straight2Bank and subscribe to our alerts or call Standard Chartered Bank representative to find out more.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="assets/js/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/all.min.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>    

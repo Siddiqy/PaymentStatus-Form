@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #5D5C5D;
+}
+
+.bg-img {
+    height: 900px;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-form {
+    min-height: 500px;
+    margin-top: 200px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.main-form h4 {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.form-heading h5 {
+    padding: 30px 0px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.fa-angle-down {
+    margin-top: 5px;
+    height: 10px;
+    width: 40px;
+    color: #7aa8bc;
+    border: 1px solid #7aa8bc;
+    border-radius: 50%;
+    float: right;
+}
+
+.main-dropdown select, .country-dropdown select, .payment-dropdown select {
+    border: 0;
+    width: 100%;
+    border-radius: 0px;
+    border-style: none;
+    padding: 8px 0px;
+    text-align: start;
+    border-bottom: 1px solid #999999;
+}
+
+.payment-dropdown select {
+    padding-bottom: 0px;
+}
+
+.main-dropdown select:focus, .country-dropdown select:focus, .payment-dropdown:focus {
+    background-color: #F5F5F5;
+}
+
+.for-customer-ref {
+    padding: 30px 0px;
+}
+
+.customer-ref label, .payment-uetr label, .payment-details label {
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #999999;
+}
+
+span {
+    color: rgb(180, 0, 0);
+}
+
+p {
+    margin-top: 30p;
+    font-size: 10px;
+    font-weight: 300;
+    color: #999999;
+}
+
+.form-control.form-input {
+    font-size: 16px;
+    font-weight: 200;
+    padding-left: 0px;
+    border: 0;
+    border-radius: 0px;
+    border-bottom: 1px solid #999999;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.all-buttons {
+    margin-bottom: 50px;
+}
+
+.fas.fa-search {
+    color: #ececec;
+    margin-right: 5px;
+}
+
+.search-btn {
+    padding: 8px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-style: none;
+    color: #D2D2D2;
+    background-color: #999999;
+}
+
+.search-reset {
+    margin-left: 15px;
+    border-style: none;
+    padding: 6px 20px;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(23, 13, 48);
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    border: 1px solid #d8d8d8;
+}
+
+.form-group.payment-fields {
+    padding-bottom: 0px;
+}
+
+.form-inputes {
+    padding-bottom: 40px;
+}
+
+.terms-condition {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 30px;
+}
